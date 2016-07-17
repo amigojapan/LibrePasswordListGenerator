@@ -6,6 +6,7 @@
 
 this is a Libre(free as in freedom) password generator which generates a list of passwrd based on a master password, then keeps track of what sites these passwrds are for(but the passwords are always generated and thus never stored anywhere) then it helps you keep track of which password is for which site.
 also, this application's sourcecode is simple enough that it can easily be peer reviewed, so you do not need to worry the passwords of websites are sent to an malevolent party.
+the passwords are generated on a seed of your master password, so they should be the same on any computer you use.
 
 dependencies:
 
