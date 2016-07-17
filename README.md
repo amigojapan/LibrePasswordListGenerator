@@ -32,3 +32,11 @@ example:
 `cd ~/Downloads`
 
 `python LibrePasswordListGenerator.p`
+
+
+
+
+to change the password length(of all the passwords(if it not possible to make a list with different password lengths)):
+edit LibrePasswordListGenerator.py
+change the follwing line to the desired length(on line 12 for now):
+`	PasswordLength=9`
