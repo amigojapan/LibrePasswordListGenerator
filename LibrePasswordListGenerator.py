@@ -135,3 +135,5 @@ root.mainloop()
 #TO-DO:
 #make password length changable by GUI
 #warn that changing password length will change all the generated password 
+#dump password and site list to a file so it can be printed
+#warn the user that he should delete the file after printing, provide a button to delete the file
