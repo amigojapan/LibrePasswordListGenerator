@@ -36,7 +36,7 @@ example:
 
 `python LibrePasswordListGenerator.p`
 
-
+when prompted for your master password enter anything as your password, remember it is better if this is a safe password too
 
 
 to change the password length(of all the passwords(if it not possible to make a list with different password lengths)):
