@@ -137,3 +137,4 @@ root.mainloop()
 #warn that changing password length will change all the generated password 
 #dump password and site list to a file so it can be printed
 #warn the user that he should delete the file after printing, provide a button to delete the file
+#fix error on mac when clicking delete: https://gist.github.com/vdamewood/6b5ad052e7ff4d0915bd654ac63ad49c probably diffeent version of tkinter
