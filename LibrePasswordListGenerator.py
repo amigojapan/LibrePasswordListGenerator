@@ -4,6 +4,7 @@ import string
 import random
 import json
 import sys
+import os
 from  hashpass import *
 
 root = tk.Tk()
@@ -151,6 +152,7 @@ def callback_load():
 		reclaclulate_password_callback()
 		
 def create_printable_file_callback():
+	outputString=""
 	outputString="Master Password:"+public_globals.MasterPasswordString+"\n"
 	for w in public_globals.gridarray:
 		outputString=outputString+"Site:"+w.SiteWidget.get()
@@ -158,11 +160,11 @@ def create_printable_file_callback():
 		outputString=outputString+"\tPass Length:"+w.PasswordLengthWidget.get()
 		outputString=outputString+"\tSymbols:"+w.SymbolsWidget.get()
 		outputString=outputString+"\n"
-		file_ = open("report.txt", 'w')
-		file_.write(outputString)
-		file_.close()
-		tkMessageBox.showinfo("Warning!", "Warning, READ CAREFULLY: we have generated the file report.txt, print it before clicking ok, after you click ok, the file will be deleted for security purposes")
-		#delete file
+	file_ = open("report.txt", 'w')
+	file_.write(outputString)
+	file_.close()
+	tkMessageBox.showinfo("Warning!", "Warning, READ CAREFULLY: we have generated the file report.txt, print it before clicking ok, after you click ok, the file will be deleted for security purposes")
+	os.remove("report.txt")#delete file
 	
 				
 def callback_master_password_ok():
