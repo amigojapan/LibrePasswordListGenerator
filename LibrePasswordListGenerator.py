@@ -177,7 +177,7 @@ def callback_master_password_ok():
 	public_globals.MasterPasswordWidget.insert(0, public_globals.MasterPasswordString)
 	MasterPasswordLabel = tk.Label(root, text="Master Password:")
 	public_globals.RecalculatePasswordsButton = tk.Button(root, text="Recalculate Passwords", command=reclaclulate_password_callback)
-	CreatePrintableFile = tk.Button(root, text="Cfreate printable file", command=create_printable_file_callback)
+	CreatePrintableFile = tk.Button(root, text="Create printable file", command=create_printable_file_callback)
 	AddPasswordButton = tk.Button(root, text="Add Password", command=callback_add_password_ok)
 	SaveButton = tk.Button(root, text="Save site lables as file", command=callback_save)
 	LoadButton = tk.Button(root, text="Load site labels from file", command=callback_load)
