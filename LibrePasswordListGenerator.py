@@ -8,6 +8,7 @@ import os
 from  hashpass import *
 
 root = tk.Tk()
+root.title("LibrePasswordListGenerator")
 
 class Object:
     def to_JSON(self):
@@ -210,6 +211,6 @@ e.grid(row=1,column=0)
 b.grid(row=2,column=0)
 root.mainloop()
 #TO-DO:
-#dump password and site list to a file so it can be printed
-#warn the user that he should delete the file after printing, provide a button to delete the file
+#(done)dump password and site list to a file so it can be printed
+#(done)warn the user that he should delete the file after printing, provide a button to delete the file
 #(done) it was not a mac error, it was an error on linux too fix error on mac when clicking delete: https://gist.github.com/vdamewood/6b5ad052e7ff4d0915bd654ac63ad49c probably diffeent version of tkinter
