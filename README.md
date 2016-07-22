@@ -11,13 +11,13 @@ dependencies:
 
 pytnon 2.X python-tk
 
-on linux **(debian variants)** do:
+on linux **(debian variants)** do:**(tested using Python 2.7.12)**
 
 `sudo apt-get install python python-tk`
 
 `pytnon LibrePasswordListGenerator.py`
 
-on windows download and install pytnon 2.X**(have only tested it on Linux yet)**
+on windows download and install pytnon 2.X**(tested using Python 2.17)**
 
 start powershell type the full path to python then space and the full path to LibrePasswordListGenerator.py
 
@@ -25,7 +25,7 @@ example:
 
 `c:\python\bin\python.exe c:\downloads\LibrePasswordListGenerator.py`
 
-on mac it should just work**(have only tested it on Linux yet)**
+on mac it should just work**(not yet tested properly)**
 
 on terminal go to the directory where LibrePasswordListGenerator.py is at
 
