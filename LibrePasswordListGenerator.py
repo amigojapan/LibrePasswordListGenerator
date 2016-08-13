@@ -156,7 +156,8 @@ def create_printable_file_callback():
 	outputString=""
 	outputString="Master Password:"+public_globals.MasterPasswordString+"\n"
 	for w in public_globals.gridarray:
-		outputString=outputString+"Site:"+w.SiteWidget.get()
+		outputString=outputString+"Password:"+w.PasswordWidget.get()
+		outputString=outputString+"\tSite:"+w.SiteWidget.get()
 		outputString=outputString+"\tSalt:"+w.SaltWidget.get()
 		outputString=outputString+"\tPass Length:"+w.PasswordLengthWidget.get()
 		outputString=outputString+"\tSymbols:"+w.SymbolsWidget.get()
